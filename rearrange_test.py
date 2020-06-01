@@ -4,7 +4,7 @@ import rearrange
 
 class TestRearrange(unittest.TestCase):
     def test_basic(self):
-        testcase = "Lovelasce Ada"
+        testcase = "Lovelasce, Ada"
         expected = "Ada Lovelasce"
         self.assertEqual(rearrange.rearrange_name(testcase), expected)
 
@@ -20,6 +20,10 @@ class TestRearrange(unittest.TestCase):
         expected = "Grace M. Hopper"
         self.assertEqual(rearrange.rearrange_name(testcase), expected)
 
+    def single(self):
+        testcase = "Plato"
+        expected = "Plato"
+        self.assertEqual(rearrange.rearrange_name(testcase), expected)
 
 
 unittest.main()
