@@ -8,5 +8,5 @@ def rearrange_name(name):
 		return "{} {} {}".format(result[2], result[3], result[1])
 	elif result.group(2) != '':
 		return "{} {}".format(result[2], result[1])
-	else:
-		return ''
+	elif result.group(1) != None:
+		return  "{}".format(result[1])
