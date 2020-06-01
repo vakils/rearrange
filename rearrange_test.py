@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-
-from rearrange import rearrange_name
-import unittest
+import  unittest
+from .rearrange  import rearrange_name
 
 class TestRearrange(unittest.TestCase):
     def test_basic(self):
