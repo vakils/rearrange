@@ -10,4 +10,3 @@ def rearrange_name(name):
 		return "{} {}".format(result[2], result[1])
 	elif result.group(1) != None:
 		return  "{}".format(result[1])
-
