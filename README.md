@@ -6,14 +6,14 @@ passes all tests below
 does not fail on single name.
 ## Tests and Results
 ### Double, First Last
-Lovelasce Ada
+* Lovelasce Ada
 
-Ada Lovelasce
+* Ada Lovelasce 
 ###Empty
-Pass
+* Pass
 ###Last, First Middle Ini
-Hopper, Grace M.
+* Hopper, Grace M.
 
-Grace M. Hopper
+* Grace M. Hopper
 ###Single
-Plato
+* Plato (pass)
